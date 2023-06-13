@@ -3,7 +3,7 @@ var frutas = ["Manzana","Platano","Cereza","Fresa"];
 
 console.log(frutas);
 
-// Logitud
+// Logitud del array
 var frutas = ["Manzana","Platano","Cereza","Fresa"];
 
 console.log(frutas.length);
@@ -28,7 +28,11 @@ var frutas = ["Manzana","Platano","Cereza","Fresa"];
 var nuevaLongitud = frutas.unshift("Lima");
 console.log(frutas);
 
-//Elimina elemento al INICIO del array con "UNSHIFT"
+//Elimina elemento al INICIO del array con "SHIFT"
 var frutas = ["Manzana","Platano","Cereza","Fresa"];
 var nuevaLongitud = frutas.shift("Manzana");
+console.log(frutas);
+
+//Para buscar la posición de un elemento con "indexOf"
+var nuevaLongitud = frutas.indexOf("Manzana");
 console.log(frutas);
